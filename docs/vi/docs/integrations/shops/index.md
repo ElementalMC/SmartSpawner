@@ -30,6 +30,7 @@ custom_prices:
 | ![](/icons/integrations/economyshopgui.png){.plugin-icon} EconomyShopGUI | `EconomyShopGUI`, `EconomyShopGUI-Premium` | [EconomyShopGUI](/vi/docs/integrations/shops/economyshopgui) |
 | ![](/icons/integrations/shopguiplus.png){.plugin-icon} ShopGUI+ | `ShopGUIPlus` | [ShopGUI+](/vi/docs/integrations/shops/shopguiplus) |
 | ![](/icons/integrations/zshop.png){.plugin-icon} zShop | `zShop` | [zShop](/vi/docs/integrations/shops/zshop) |
+| ![](/icons/integrations/xshop.png){.plugin-icon} xShop | `xShop` | [xShop](/vi/docs/integrations/shops/xshop) |
 
 ## Backend tiền tệ
 

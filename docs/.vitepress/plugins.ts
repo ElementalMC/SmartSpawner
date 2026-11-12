@@ -20,6 +20,7 @@ export const SHOPS: Plugin[] = [
   { name: 'EconomyShopGUI', icon: local('economyshopgui.png'), page: 'shops/economyshopgui' },
   { name: 'ShopGUI+', icon: local('shopguiplus.png'), page: 'shops/shopguiplus' },
   { name: 'zShop', icon: local('zshop.png'), page: 'shops/zshop' },
+  { name: 'xShop', icon: local('xshop.png'), page: 'shops/xshop' },
   { name: 'Vault', icon: local('vault.png'), page: 'shops/vault' },
   { name: 'ExcellentEconomy', icon: modrinth('r0FB9U1e/5e7beb1f67b9ea9dac40616b24fb5fa625a94b66_96.webp'), page: 'shops/excellenteconomy' }
 ]

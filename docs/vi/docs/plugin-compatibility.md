@@ -39,6 +39,7 @@ SmartSpawner tự phát hiện plugin tùy chọn và chỉ bật những tích 
 - [EconomyShopGUI](/vi/docs/integrations/shops/economyshopgui) *(bản free và Premium)*
 - [ShopGUI+](/vi/docs/integrations/shops/shopguiplus)
 - [zShop](/vi/docs/integrations/shops/zshop)
+- [xShop](/vi/docs/integrations/shops/xshop)
 - [Vault](/vi/docs/integrations/shops/vault)
 - [ExcellentEconomy](/vi/docs/integrations/shops/excellenteconomy)
 

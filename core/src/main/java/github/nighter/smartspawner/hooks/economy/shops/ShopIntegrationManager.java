@@ -6,6 +6,7 @@ import github.nighter.smartspawner.hooks.economy.shops.providers.economyshopgui.
 import github.nighter.smartspawner.hooks.economy.shops.providers.economyshopgui.ESGUICompatibilityHandler;
 import github.nighter.smartspawner.hooks.economy.shops.providers.shopguiplus.ShopGuiPlusProvider;
 import github.nighter.smartspawner.hooks.economy.shops.providers.shopguiplus.SpawnerHook;
+import github.nighter.smartspawner.hooks.economy.shops.providers.xshop.XShopProvider;
 import github.nighter.smartspawner.hooks.economy.shops.providers.zshop.ZShopProvider;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.Material;
@@ -81,6 +82,10 @@ public class ShopIntegrationManager {
             });
         }
 
+        if (isPluginAvailable("xShop")) {
+            registerProviderIfAvailable("xShop", () -> new XShopProvider(plugin));
+        }
+
         // registerProviderIfAvailable("ZShop", () -> new ZShopProvider(plugin));
     }
 
@@ -116,6 +121,12 @@ public class ShopIntegrationManager {
                             }
                             return new ShopGuiPlusProvider(plugin);
                         });
+                        return !availableProviders.isEmpty();
+                    }
+                    break;
+                case "xshop":
+                    if (isPluginAvailable("xShop")) {
+                        registerProviderIfAvailable("xShop", () -> new XShopProvider(plugin));
                         return !availableProviders.isEmpty();
                     }
                     break;

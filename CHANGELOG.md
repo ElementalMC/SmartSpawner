@@ -2,6 +2,11 @@
 
 All notable changes to SmartSpawner are documented in this file.
 
+## Unreleased
+
+### Added
+- xShop sell integration. SmartSpawner reads spawner sell prices from xShop's sell files, through auto-detection or `shop_integration.preferred_plugin: xShop`. Prices are read live, so `/xshop reload` applies without reloading SmartSpawner.
+
 ## 1.9.0
 
 ### Added
