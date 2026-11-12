@@ -60,6 +60,7 @@ const enManualSidebar = [
           sidebarPlugin('', 'shops/economyshopgui'),
           sidebarPlugin('', 'shops/shopguiplus'),
           sidebarPlugin('', 'shops/zshop'),
+          sidebarPlugin('', 'shops/xshop'),
           sidebarPlugin('', 'shops/vault'),
           sidebarPlugin('', 'shops/excellenteconomy')
         ]
@@ -142,6 +143,7 @@ const viManualSidebar = [
           sidebarPlugin('/vi', 'shops/economyshopgui'),
           sidebarPlugin('/vi', 'shops/shopguiplus'),
           sidebarPlugin('/vi', 'shops/zshop'),
+          sidebarPlugin('/vi', 'shops/xshop'),
           sidebarPlugin('/vi', 'shops/vault'),
           sidebarPlugin('/vi', 'shops/excellenteconomy')
         ]

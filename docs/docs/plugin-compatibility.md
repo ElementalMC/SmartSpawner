@@ -39,6 +39,7 @@ SmartSpawner detects optional plugins and enables only the integrations availabl
 - [EconomyShopGUI](/docs/integrations/shops/economyshopgui) *(free and Premium)*
 - [ShopGUI+](/docs/integrations/shops/shopguiplus)
 - [zShop](/docs/integrations/shops/zshop)
+- [xShop](/docs/integrations/shops/xshop)
 - [Vault](/docs/integrations/shops/vault)
 - [ExcellentEconomy](/docs/integrations/shops/excellenteconomy)
 

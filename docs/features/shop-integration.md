@@ -20,6 +20,7 @@ Sell items directly from the spawner storage GUI with full economy support.
 - EconomyShopGUI / EconomyShopGUI Premium
 - ShopGUI+
 - zShop
+- xShop
 
 Prices can also be defined manually in `sell_integration.yml`.
 

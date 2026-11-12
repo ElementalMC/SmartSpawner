@@ -48,7 +48,7 @@ Bật tra cứu giá từ plugin cửa hàng.
 </ConfigProperty>
 
 <ConfigProperty name="preferred_plugin" value="auto" type="string">
-Plugin cửa hàng cần dùng: <code>auto</code>, <code>EconomyShopGUI</code>, <code>EconomyShopGUI-Premium</code>, <code>ShopGUIPlus</code> hoặc <code>zShop</code>. Với <code>auto</code>, plugin được cài đầu tiên sẽ được dùng.
+Plugin cửa hàng cần dùng: <code>auto</code>, <code>EconomyShopGUI</code>, <code>EconomyShopGUI-Premium</code>, <code>ShopGUIPlus</code>, <code>zShop</code> hoặc <code>xShop</code>. Với <code>auto</code>, plugin được cài đầu tiên sẽ được dùng.
 </ConfigProperty>
 
 </ConfigGroup>

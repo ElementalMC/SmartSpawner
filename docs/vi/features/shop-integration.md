@@ -20,6 +20,7 @@ Bán vật phẩm trực tiếp từ GUI kho spawner với hỗ trợ đầy đ�
 - EconomyShopGUI / EconomyShopGUI Premium
 - ShopGUI+
 - zShop
+- xShop
 
 Giá cũng có thể được đặt thủ công trong `sell_integration.yml`.
 

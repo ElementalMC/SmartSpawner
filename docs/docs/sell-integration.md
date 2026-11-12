@@ -48,7 +48,7 @@ Enables shop plugin price lookup.
 </ConfigProperty>
 
 <ConfigProperty name="preferred_plugin" value="auto" type="string">
-Which shop plugin to use: <code>auto</code>, <code>EconomyShopGUI</code>, <code>EconomyShopGUI-Premium</code>, <code>ShopGUIPlus</code>, or <code>zShop</code>. On <code>auto</code> the first one installed is used.
+Which shop plugin to use: <code>auto</code>, <code>EconomyShopGUI</code>, <code>EconomyShopGUI-Premium</code>, <code>ShopGUIPlus</code>, <code>zShop</code>, or <code>xShop</code>. On <code>auto</code> the first one installed is used.
 </ConfigProperty>
 
 </ConfigGroup>

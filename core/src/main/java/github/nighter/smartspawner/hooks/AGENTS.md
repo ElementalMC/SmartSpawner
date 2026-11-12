@@ -102,7 +102,7 @@ material the owner deletes is not added back on the next start. It is also the o
 writes to at runtime, through `setPrice` / `removePrice`.
 
 `ShopIntegrationManager` picks one `activeProvider` from `providers/`: EconomyShopGUI, ShopGUI+,
-zShop. Either honours `shop_integration.preferred_plugin` or auto-detects the first available. A new
+zShop, xShop. Either honours `shop_integration.preferred_plugin` or auto-detects the first available. A new
 shop plugin means implementing `ShopProvider` (`getPluginName`, `isAvailable`, `getSellPrice`) and
 adding a case to that switch.
 
